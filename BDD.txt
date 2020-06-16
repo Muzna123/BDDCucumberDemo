@@ -1,0 +1,73 @@
+Cucumber BDD:
+-------------
+
+BDD:Behaviour Driven Development
+-It is developed to bridge the communication gap between various stake holders of the company
+
+Different tools to implement BDD
+--------------------------------
+1)Cucumber BDD - java selenium , python selenium
+2)Specflow BDD- c# selenium
+3)RestAssured BDD - Java API Testing
+4)Serenity BDD - Java Selenium
+
+Cucumber BDD
+-------------
+-3 important files
+	-feature file
+	-step definition
+	-runner file
+
+
+Plugins of Eclipse to work with Cucumber BDD
+---------------------------------------------
+
+1)Cucumber Eclipse Plugin
+2)Natural Plugin
+
+Dependencies for Cucumber BDD
+-------------------------------
+1)Cucumber JVM:Core
+2)Cucumber JVM:Java
+3)Cucumber JVM:TestNG
+4)Selenium
+
+Practical Example On:
+----------------------
+ ->Feature file
+ ->Runner file
+ ->StepDefinition
+
+CucumberOptions
+---------------
+	->features
+	->glue
+	->dryRun
+	->tags
+
+->Background keyword
+
+Data Driven Approach in Cucumber BDD
+--------------------------------------
+	-> Parameterization
+	->Parameterisation using Example keyword
+	-DataTables
+		->List
+		->Maps
+
+Tags
+---------
+tags = {"@End2End","@SmokeTest"}) => AND
+tags = {"@End2End,@SmokeTest"}) => OR
+
+Hooks
+-------
+-Before and After
+-Tagged Hooks
+
+
+
+
+
+
+
